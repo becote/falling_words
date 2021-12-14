@@ -1,19 +1,33 @@
 body
 {
-    background-image: url('images/pixel.gif');
+    background-image: url('../images/pixel.gif');
+    background-size: 100%;
+    text-align: center;
 }
 main
 {
-    width: 60%;
-    height: 80%;
-}
-h1 {
     text-align: center;
 }
 #level_selector
 {
     display: flex;
+    align-self: flex-end;
     justify-content: space-around;
-    
     text-align: center;
+    
+}
+.level
+{
+    width: 15%;
+    height: 40%;
+    border: solid 2px;
+    
+}
+.level:hover
+{
+    color:white;
+    opacity: 50%;
+}
+footer{
+    
 }
